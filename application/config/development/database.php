@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'dev-perahub.ckkiqw3zpuau.ap-southeast-1.rds.amazonaws.com',
 	'username' => 'root',
-	'password' => 'root',
-	'database' => 'merchant',
+	'password' => 'hPqDn505mymj9uQNMbEX',
+	'database' => 'merchant_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 't_',
 	'pconnect' => FALSE,

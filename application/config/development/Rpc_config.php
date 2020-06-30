@@ -2,13 +2,13 @@
 
 $svr_config['user_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9091, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19091, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -18,13 +18,13 @@ $svr_config['user_server'] = [
 ];
 $svr_config['order_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9093, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19093, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -34,13 +34,13 @@ $svr_config['order_server'] = [
 ];
 $svr_config['account_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9092, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19092, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -50,13 +50,13 @@ $svr_config['account_server'] = [
 ];
 $svr_config['active_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
+        'host' => '172.31.13.123', //服务器 172.31.13.123
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -66,13 +66,13 @@ $svr_config['active_server'] = [
 ];
 $svr_config['verify_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9095, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19095, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -82,13 +82,13 @@ $svr_config['verify_server'] = [
 ];
 $svr_config['msg_dispatch_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9097, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19097, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -98,13 +98,13 @@ $svr_config['msg_dispatch_server'] = [
 ];
 $svr_config['fee_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9098, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19098, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -114,13 +114,13 @@ $svr_config['fee_server'] = [
 ];
 $svr_config['pay_gate_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9099, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19099, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -130,13 +130,13 @@ $svr_config['pay_gate_server'] = [
 ];
 $svr_config['quota_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9094, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19094, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -146,8 +146,8 @@ $svr_config['quota_server'] = [
 ];
 $svr_config['manage_auth_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9096, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19096, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
@@ -162,13 +162,13 @@ $svr_config['manage_auth_server'] = [
 ];
 $svr_config['manual_acct_order_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
+        'host' => '172.31.13.123', //服务器 172.31.13.123
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -178,13 +178,13 @@ $svr_config['manual_acct_order_server'] = [
 ];
 $svr_config['manul_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
+        'host' => '172.31.13.123', //服务器 172.31.13.123
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -194,13 +194,13 @@ $svr_config['manul_server'] = [
 ];
 $svr_config['settle_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9081, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19081, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -210,13 +210,13 @@ $svr_config['settle_server'] = [
 ];
 $svr_config['topup_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9101, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19101, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -226,13 +226,13 @@ $svr_config['topup_server'] = [
 ];
 $svr_config['f2f_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
+        'host' => '172.31.13.123', //服务器 172.31.13.123
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -242,13 +242,13 @@ $svr_config['f2f_server'] = [
 ];
 $svr_config['offline_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
+        'host' => '172.31.13.123', //服务器 172.31.13.123
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -258,13 +258,13 @@ $svr_config['offline_server'] = [
 ];
 $svr_config['integral_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
+        'host' => '172.31.13.123', //服务器 172.31.13.123
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -274,13 +274,13 @@ $svr_config['integral_server'] = [
 ];
 $svr_config['app_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
+        'host' => '172.31.13.123', //服务器 172.31.13.123
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -290,13 +290,13 @@ $svr_config['app_server'] = [
 ];
 $svr_config['risk_control_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
+        'host' => '172.31.13.123', //服务器 172.31.13.123
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -307,13 +307,13 @@ $svr_config['risk_control_server'] = [
 
 $svr_config['bananapay_server'] = [
     'relay' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 172.18.250.244
+        'host' => '172.31.13.123', //服务器 172.18.250.244
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -324,13 +324,13 @@ $svr_config['bananapay_server'] = [
 
 $svr_config['app_server'] = [
     'relay' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 172.18.250.244
+        'host' => '172.31.13.123', //服务器 172.18.250.244
         'port' => 22000, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -340,13 +340,13 @@ $svr_config['app_server'] = [
 ];
 $svr_config['auth_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9083, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19083, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -356,13 +356,13 @@ $svr_config['auth_server'] = [
 ];
 $svr_config['watch_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9085, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19085, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
     'http' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com',
+        'host' => '172.31.13.123',
         'port' => 80,
         'domain' => '',
         'scheme' => 'http',
@@ -373,8 +373,8 @@ $svr_config['watch_server'] = [
 
 $svr_config['config_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9086, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19086, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],
@@ -390,8 +390,8 @@ $svr_config['config_server'] = [
 
 $svr_config['merchant_server'] = [
     'thrift' => [
-        'host' => 'ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com', //服务器 ec2-18-138-22-48.ap-southeast-1.compute.amazonaws.com
-        'port' => 9102, //端口
+        'host' => '172.31.13.123', //服务器 172.31.13.123
+        'port' => 19087, //端口
         'send_timeout' => 5000, //发送超时，单位毫秒
         'recv_timeout' => 10000, //接受超时，单位毫秒
     ],

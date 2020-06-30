@@ -1,4 +1,4 @@
 <?php
 
-$config ['file_upload']='http://120.78.163.121:8080/upload';
-$config ['file_show'] = 'http://120.78.163.121:8080/file_url';
+$config ['file_upload']='http://zealwei-file.perahub.tech/upload';
+$config ['file_show'] = 'http://zealwei-file.perahub.tech/file_url';
