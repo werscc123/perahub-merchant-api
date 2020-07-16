@@ -6,7 +6,7 @@ class User extends OP_Model{
     protected $primary_name = ['spid','id'];
     protected $default_primary_name = 'id';
     protected $display_primary_name = 'uid';
-    protected $child_resource_model = ['otp','partner','bindcode','sub','authorization'];
+    protected $child_resource_model = ['otp','partner','bindcode','sub','authorization','bank'];
 
     public function modify($req){
         if(isset($req['form_data']['login_pass'])&&$req['form_data']['login_pass']){

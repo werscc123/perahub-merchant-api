@@ -411,6 +411,11 @@ class Users extends OP_Controller {
     public function get(){
         $response = $this->user->getById($this->req['path']['id']);
         $this->format($response);
+        //bank_info
+        $bank_info = $this->user->get_banks($this->req);
+        //当前只去一条
+        $response['bank_info'] = isset($bank_info[0])?$bank_info[0]:[];
+
         if($response){
             $this->display('json',$response);
         }
